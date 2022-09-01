@@ -6,7 +6,7 @@
 /*   By: itan <itan@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 20:39:43 by itan              #+#    #+#             */
-/*   Updated: 2022/09/01 12:45:00 by itan             ###   ########.fr       */
+/*   Updated: 2022/09/01 12:57:43 by itan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,4 @@ int	ft_find_next_prime(int nb)
 		else
 			i++;
 	}
-}
-int	main(int argc, char const *argv[])
-{
-	(void)argc;
-	printf("%d", ft_find_next_prime(atoi(argv[1])));
-	return (0);
 }
