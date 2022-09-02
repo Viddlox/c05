@@ -6,9 +6,12 @@
 /*   By: itan <itan@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 17:10:05 by itan              #+#    #+#             */
-/*   Updated: 2022/08/25 17:22:25 by itan             ###   ########.fr       */
+/*   Updated: 2022/09/02 10:34:10 by itan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int	ft_iterative_factorial(int nb)
 {
